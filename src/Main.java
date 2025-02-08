@@ -15,7 +15,7 @@ Person[] people = {
         System.out.println("Before sorting:");
         Person.printPeople(people);
 
-        Person.bubbleSort(people);
+        Person.mergeSort(people, 0, people.length-1);
         System.out.println("After sorting (in descending order of age):");
         Person.printPeople(people);
 
